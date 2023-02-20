@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <style>
+      /* Style the stopwatch container */
+      .stopwatch-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      /* Style the stopwatch text */
+      .stopwatch-text {
+        font-size: 4rem;
+        margin-bottom: 30px;
+      }
+
+      /* Style the stopwatch buttons */
+      .stopwatch-button {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .stopwatch-button:hover {
+        background-color: #0069d9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stopwatch-container">
+      <div class="stopwatch-text">00:00.00</div>
+      <div>
+        <button class="stopwatch-button" id="start-btn">Start</button>
+        <button class="stopwatch-button" id="stop-btn">Stop</button>
+        <button class="stopwatch-button" id="reset-btn">Reset</button>
+      </div>
+    </div>
+
+    <script src="stop-watch.js"></script>
+  </body>
+</html>
